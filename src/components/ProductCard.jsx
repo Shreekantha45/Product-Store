@@ -22,7 +22,6 @@ import {
 } from "@chakra-ui/react";
 import { useProductStore } from "../store/product";
 import { useState } from "react";
-// import { useProductStore } from "../Store/Product";
 
 const ProductCard = ({ product }) => {
 	const [updatedProduct, setUpdatedProduct] = useState(product);
